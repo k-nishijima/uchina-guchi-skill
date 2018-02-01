@@ -1,0 +1,48 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "うちなーぐち",
+            "types": [],
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "UchinaIntent",
+                    "slots": [],
+                    "samples": [
+                        "はいさい",
+                        "はいたい",
+                        "何か喋って",
+                        "うちなーぐち教えて",
+                        "何か教えて",
+                        "他には",
+                        "次",
+                        "次は"
+                    ]
+                },
+                {
+                    "name": "NameIntent",
+                    "slots": [
+                        {
+                            "name": "name",
+                            "type": "AMAZON.FirstName"
+                        }
+                    ],
+                    "samples": [
+                        "{name} です"
+                    ]
+                }
+            ]
+        }
+    }
+}
