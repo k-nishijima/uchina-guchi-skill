@@ -82,8 +82,8 @@ var handlers = {
         this.emit('Closed');
     },
     'Closed' : function() {
-        this.response.speak('にふぇーでーびる。まためんそーりよー')
-            .cardRenderer('にふぇーでーびる。まためんそーりよー',
+        this.response.speak('にふぇーでーびる。またんめんそーりよー')
+            .cardRenderer('にふぇーでーびる。またんめんそーりよー',
             '意味：ありがとうございます。また来てくださいね。');
         this.emit(':responseReady');
     },
