@@ -28,6 +28,20 @@
 skill.json	- Skill Manifest
 ```
 
+## AWSのcredential
+
+このファイルが必要になります。 
+
+```~/.aws/credentials```
+
+中身はこれで（実際の権限情報を入れてください）。
+
+```
+[default]
+aws_access_key_id=XXXX
+aws_secret_access_key=XXXX
+```
+
 ## ビルド方法
 
 Node.js 4.5以降が必要です。
