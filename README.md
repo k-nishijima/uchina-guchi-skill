@@ -67,6 +67,11 @@ $ ask deploy -p default
 
 デベロッパーコンソールからスキルの状態を確認します。 [https://developer.amazon.com/](https://developer.amazon.com/)
 
+## エミュレータでテスト
+
+https://echosim.io/
+
+につないでテストしてください。
 
 ## Author
 
