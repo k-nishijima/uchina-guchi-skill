@@ -35,7 +35,7 @@ Node.js 4.5以降が必要です。
 SDKの準備は以下の通りです。
 
 ```
-$ npm install --save alexa-sdk
+$ npm install -g alexa-sdk
 $ npm install -g ask-cli
 $ ask init
 ```
